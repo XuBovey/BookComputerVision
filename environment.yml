@@ -1,3 +1,12 @@
+# 文件使用
+# 1. 下载environment.yml
+# 2. 命令行打开environment.yml所在文件夹
+# 3. 执行命令: conda env create -f environment.yml
+# 4. 启用环境: conda activate python-3.7
+
+# name-环境名称
+# channels-指定检索的channel名，相当于-c
+# dependencies-指定所需依赖，用=来指定版本，不指定默认安装最新版本，建议指定
 name: python-3.7
 channels:
   - conda-forge
